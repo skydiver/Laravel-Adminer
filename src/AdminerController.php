@@ -1,13 +1,16 @@
-<?php namespace Miroc\LaravelAdminer;
+<?php
 
-use Illuminate\Routing\Controller;
+    namespace Skydiver\LaravelAdminer;
 
-class AdminerController extends Controller {
+    use Illuminate\Routing\Controller;
 
-    public function index()
-    {
-        require('adminer-4.2.3-en.php');
-        return new EmptyResponse();
+    class AdminerController extends Controller {
+
+        public function index() {
+            require('adminer-4.2.3-en.php');
+            return new EmptyResponse();
+        }
+
     }
-
-}
+    
+?>
