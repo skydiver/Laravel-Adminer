@@ -7,10 +7,10 @@
     class AdminerController extends Controller {
 
         public function index() {
-            require('adminer-4.2.3-en.php');
+            require('adminer-4.2.5-en.php');
             return new EmptyResponse();
         }
 
     }
-    
+
 ?>
